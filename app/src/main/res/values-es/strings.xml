@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ET VPN</string>
+    <string name="vpn_connected">ET VPN Conectado</string>
+    <string name="vpn_connecting">ET VPN Conectando…</string>
+    <string name="vpn_disconnected">ET VPN Desconectado</string>
+    <string name="disconnect_action">Desconectar</string>
+    <string name="vpn_channel_name">Estado de Conexión ET VPN</string>
+    <string name="vpn_channel_desc">Muestra el estado activo y telemetría de ancho de banda</string>
+</resources>

@@ -1,0 +1,6 @@
+{
+  "name": "ET VPN",
+  "description": "Professional Android VPN with high-performance VpnService tunneling, interactive server location map, global multi-continent server network, multi-theme engine, and advanced security settings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

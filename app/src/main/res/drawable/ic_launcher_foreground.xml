@@ -1,0 +1,50 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:translateX="0"
+        android:translateY="0">
+        <!-- Outer Glowing Shield Outline -->
+        <path
+            android:pathData="M54,23 L79,33 C79,53 68,69 54,77 C40,69 29,53 29,33 Z"
+            android:strokeWidth="3.5"
+            android:strokeColor="#00E5FF"
+            android:fillColor="#10223A" />
+
+        <!-- Inner Shield Accent with Emerald Gradient -->
+        <path
+            android:pathData="M54,28 L74,36 C74,51 65,65 54,71 C43,65 34,51 34,36 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="34"
+                    android:startY="28"
+                    android:endX="74"
+                    android:endY="71"
+                    android:type="linear">
+                    <item android:color="#00E5FF" android:offset="0.0" />
+                    <item android:color="#00E676" android:offset="1.0" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Lock Shackle -->
+        <path
+            android:pathData="M48,46 L48,42 C48,38.68 50.68,36 54,36 C57.32,36 60,38.68 60,42 L60,46"
+            android:strokeWidth="2.5"
+            android:strokeColor="#FFFFFF"
+            android:fillColor="#00000000" />
+
+        <!-- Lock Body -->
+        <path
+            android:pathData="M45,46 L63,46 A2,2 0 0,1 65,48 L65,58 A2,2 0 0,1 63,60 L45,60 A2,2 0 0,1 43,58 L43,48 A2,2 0 0,1 45,46 Z"
+            android:fillColor="#FFFFFF" />
+
+        <!-- Keyhole -->
+        <path
+            android:pathData="M54,50 A1.5,1.5 0 0,0 52.5,51.5 C52.5,52.2 53,52.8 53.4,53.2 L53.4,56 L54.6,56 L54.6,53.2 C55,52.8 55.5,52.2 55.5,51.5 A1.5,1.5 0 0,0 54,50 Z"
+            android:fillColor="#0B132B" />
+    </group>
+</vector>
